@@ -43,7 +43,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Selamat Datang"
+            android:text="Keamanan"
             android:textColor="#708D81"
             android:textSize="14sp"
             android:textAllCaps="true"
@@ -53,7 +53,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="32dp"
-            android:text="Portal Ujian"
+            android:text="Buka Kunci"
             android:textColor="#1B4332"
             android:textSize="32sp"
             android:textStyle="bold" />
@@ -61,7 +61,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="KODE UJIAN"
+            android:text="KODE KONFIRMASI"
             android:textSize="12sp"
             android:textStyle="bold"
             android:textColor="#2D6A4F"
@@ -71,31 +71,10 @@
             android:id="@+id/etExamCode"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_marginBottom="20dp"
-            android:background="#EDF2F0"
-            android:hint="Masukkan kode ujian"
-            android:inputType="text"
-            android:paddingHorizontal="16dp"
-            android:textColor="#1B4332"
-            android:textSize="14sp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="NOMOR INDUK SISWA"
-            android:textSize="12sp"
-            android:textStyle="bold"
-            android:textColor="#2D6A4F"
-            android:layout_marginBottom="8dp" />
-
-        <EditText
-            android:id="@+id/etNis"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
             android:layout_marginBottom="32dp"
             android:background="#EDF2F0"
-            android:hint="Masukkan NIS Anda"
-            android:inputType="number"
+            android:hint="Masukkan kode buka kunci"
+            android:inputType="text"
             android:paddingHorizontal="16dp"
             android:textColor="#1B4332"
             android:textSize="14sp" />
@@ -105,7 +84,7 @@
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:backgroundTint="#1B4332"
-            android:text="Masuk Sekarang"
+            android:text="Buka Sekarang"
             android:textAllCaps="false"
             android:textSize="16sp"
             android:textStyle="bold"

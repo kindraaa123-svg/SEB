@@ -31,13 +31,13 @@ class LoginController extends Controller
 
         if (! $supervisor || ! Hash::check($credentials['password'], $supervisor->password ?? '')) {
             return back()
-                ->withErrors(['username' => 'Username atau password salah.'])
+                ->withErrors(['username' => 'Invalid username or password.'])
                 ->withInput($request->except('password'));
         }
 
         $request->session()->regenerate();
         $request->session()->put('supervisor', [
-            'id' => $supervisor->id ?? $supervisor->supervisor_id ?? null,
+            'id' => $supervisor->supervisorid ?? $supervisor->id ?? $supervisor->supervisor_id ?? null,
             'username' => $supervisor->username,
         ]);
 
